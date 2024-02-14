@@ -2,9 +2,15 @@ import React from 'react';
 
 
 function App() {
-	return <>
-	<input / ><input /><input />;
-	</>
+	const name = 'user';
+	const age  = '30';
+	
+	return <div>
+		name: {name} 
+		<p>
+		age: {age}
+		</p>
+	</div>;
 }
 
 
