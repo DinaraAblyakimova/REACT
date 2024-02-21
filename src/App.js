@@ -2,18 +2,17 @@ import React from 'react';
 
 
 function App() {
- function getDigitsSum(num) {
-  let sum = 0;
-  while (num) {
-    sum += num % 10;
-    num = Math.floor(num / 10);
-  }
-  return sum;
+  function getDigitsSum(num) {
+   let sum = 0;
+   while (num) {
+     sum += num % 10;
+     num = Math.floor(num / 10);
    }
-   const digitsSum = getDigitsSum(123);
-   return <div>
-     <div>Digits Sum of 123: {digitsSum}</div>
-    </div>
+   return sum;
+    }
+    return <div>
+      <div>Digits Sum: {getDigitsSum(12345)}</div>
+     </div>
 
 
 
