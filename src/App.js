@@ -2,14 +2,11 @@ import React from 'react';
 
 
 function App() {
-	const arr = [1, 2, 3];
+	const obj = {name: 'john', surname: 'smit'};
 	
 	return <div>
-		<ul>
-		<li>{arr[0]}</li>
-		<li>{arr[1]}</li>
-		<li>{arr[2]}</li>
-		</ul>
+		<p>name: {obj.name}</p>
+		<p>surname: {obj.surname}</p>
 	</div>;
 }
 
