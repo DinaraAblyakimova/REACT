@@ -2,19 +2,14 @@ import React from 'react';
 
 
 function App() {
-	let text;
-	const isAdult = false;
-	if (isAdult) {
-		text = <p>Добро пожаловать на сайт </p>
-		}
-		
+	const age = 19;
+ const show = true;
+ 
+ return <div>
+ {age > 18 ? '>18' : '<18'}
+ </div>;
 
-	return (
-	  <div>
-		{text}
-	  </div>
-	)
-  }
+}
 
 
   
