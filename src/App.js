@@ -2,11 +2,10 @@ import React from 'react';
 
 
 function App() {
-	const obj = {name: 'john', surname: 'smit'};
+	const attr = 'block';
 	
-	return <div>
-		<p>name: {obj.name}</p>
-		<p>surname: {obj.surname}</p>
+	return <div id ={attr}>
+		text
 	</div>;
 }
 
