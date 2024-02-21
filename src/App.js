@@ -2,14 +2,14 @@ import React from 'react';
 
 
 function App() {
-	const name = 'user';
-	const age  = '30';
+	const arr = [1, 2, 3];
 	
 	return <div>
-		name: {name} 
-		<p>
-		age: {age}
-		</p>
+		<ul>
+		<li>{arr[0]}</li>
+		<li>{arr[1]}</li>
+		<li>{arr[2]}</li>
+		</ul>
 	</div>;
 }
 
